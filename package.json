@@ -1,0 +1,1 @@
+{"name":"music-cli-extension","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test","zip":"rm -f music-cli-extension.zip && zip -r music-cli-extension.zip manifest.json src icons README.md LICENSE -x '*.DS_Store'"},"devDependencies":{}}
