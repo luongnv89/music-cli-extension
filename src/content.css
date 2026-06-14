@@ -1,0 +1,37 @@
+#musiccli-open-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 14px 0 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 18px;
+  background: var(--yt-spec-badge-chip-background, rgba(0, 0, 0, 0.05));
+  color: var(--yt-spec-text-primary, #0f0f0f);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: background 0.1s ease;
+}
+
+#musiccli-open-button:hover {
+  background: var(--yt-spec-10-percent-layer, rgba(0, 0, 0, 0.1));
+}
+
+#musiccli-open-button:active {
+  background: var(--yt-spec-10-percent-layer, rgba(0, 0, 0, 0.15));
+}
+
+#musiccli-open-button svg {
+  display: block;
+  flex: 0 0 auto;
+}
+
+#musiccli-open-button .musiccli-btn-label {
+  display: inline-block;
+}
